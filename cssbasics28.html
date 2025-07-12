@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .scroll-box {
+      width: 300px;
+      height: 200px;
+      overflow-y: scroll;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .scroll-box::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .scroll-box::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .scroll-box::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 6px;
+    }
+
+    .scroll-box::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll-box">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Scroll to see custom scrollbar styles!</p>
+    <p>Praesent at lorem a magna convallis finibus.</p>
+    <p>Morbi feugiat dolor in turpis vehicula, ac tincidunt justo tincidunt.</p>
+    <p>Duis ut nulla justo. Integer sagittis.</p>
+    <p>Aliquam erat volutpat. Integer feugiat dolor ut libero tempor.</p>
+  </div>
+</body>
+</html>
