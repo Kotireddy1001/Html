@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      width: 80%; margin: 50px auto;
+    }
+    .bar {
+      height: 30px;
+      background: lightgray;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .progress {
+      height: 100%;
+      width: 0%;
+      background: green;
+      animation: load 3s forwards;
+    }
+    @keyframes load {
+      0% { width: 0; }
+      100% { width: 75%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+</body>
+</html>
